@@ -1,6 +1,17 @@
-r=5
-
-for i in range(1,r+1):
-    for j in range(i):
-        print("*",end=" ")
-    print()
+dict={"Name":"Jiya","Grade":12,"Age":17,"height":"155cm"}
+print(dict)
+#add
+dict["Hobby"]="Art"
+print(dict)
+#update
+dict["Grade"]=13
+print(dict)
+#poppp
+dict.pop("height")
+print(dict)
+#getting
+d=dict.get("Name")
+print(d)
+#clearing
+dict.clear()
+print(dict)
