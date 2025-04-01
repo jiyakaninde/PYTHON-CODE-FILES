@@ -1,0 +1,12 @@
+empty=()
+print(empty)
+integer=(1,2,3,4,5,6)
+print(integer)
+mixed=("Helo",555,1.3)
+print(mixed)
+print(mixed[0])
+nested=("hey","wassup",(1,2,3))
+print(nested[2][1])
+print(nested[0:3])
+for i in nested:
+    print(i)
