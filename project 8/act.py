@@ -1,0 +1,7 @@
+list=("Jiya","Kaninde","17","155cm","54kg","Art")
+print("My first name is ",list[0])
+print("My last name is ",list[1])
+print("My age is ",list[2])
+print("My height is ",list[3])
+print("My weight is ",list[4])
+print("My favourite subject is ",list[5])
