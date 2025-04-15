@@ -1,5 +1,6 @@
 a=14
 b=2
+c=0
 print(a)
 print(b)
 
