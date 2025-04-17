@@ -1,0 +1,11 @@
+file = open("sample.txt","r")
+print(file.read())
+file.close()
+
+f2= open("sample.txt","w")
+f2.write("I like to code")
+f2.close()
+
+f2= open("sample.txt","a")
+f2.write(" and draw")
+f2.close()
